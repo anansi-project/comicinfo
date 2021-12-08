@@ -13,5 +13,5 @@ This project aims at:
 ## Who's behind this?
 
 Supporters of this initiative include:
-- @gotson, [Komga](https://komga.org)
-- @majora2007, [Kavita](https://www.kavitareader.com/)
+- [Komga](https://komga.org)
+- [Kavita](https://www.kavitareader.com/)
