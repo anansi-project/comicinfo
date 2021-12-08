@@ -14,6 +14,8 @@ This project aims at:
 
 Schemas are available in [schema](./schema), each version in a separate directory.
 
+Current drafts are available in [drafts](./drafts), each version in a separate directory.
+
 ## Who's behind this?
 
 Supporters of this initiative include:
