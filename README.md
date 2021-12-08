@@ -10,6 +10,10 @@ This project aims at:
 1. documenting the existing versions of the schema, with the accepted usage of each field
 2. centralizing evolutions of the schema
 
+## Where can I find the schemas?
+
+Schemas are available in [schema](./schema), each version in a separate directory.
+
 ## Who's behind this?
 
 Supporters of this initiative include:
