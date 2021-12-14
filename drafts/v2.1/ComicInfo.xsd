@@ -22,6 +22,7 @@
             <xs:element minOccurs="0" maxOccurs="1" default="" name="Letterer" type="xs:string" />
             <xs:element minOccurs="0" maxOccurs="1" default="" name="CoverArtist" type="xs:string" />
             <xs:element minOccurs="0" maxOccurs="1" default="" name="Editor" type="xs:string" />
+            <xs:element minOccurs="0" maxOccurs="1" default="" name="Translator" type="xs:string" />
             <xs:element minOccurs="0" maxOccurs="1" default="" name="Publisher" type="xs:string" />
             <xs:element minOccurs="0" maxOccurs="1" default="" name="Imprint" type="xs:string" />
             <xs:element minOccurs="0" maxOccurs="1" default="" name="Genre" type="xs:string" />
