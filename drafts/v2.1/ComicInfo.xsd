@@ -26,6 +26,7 @@
             <xs:element minOccurs="0" maxOccurs="1" default="" name="Publisher" type="xs:string" />
             <xs:element minOccurs="0" maxOccurs="1" default="" name="Imprint" type="xs:string" />
             <xs:element minOccurs="0" maxOccurs="1" default="" name="Genre" type="xs:string" />
+            <xs:element minOccurs="0" maxOccurs="1" default="" name="Tags" type="xs:string" />
             <xs:element minOccurs="0" maxOccurs="1" default="" name="Web" type="xs:string" />
             <xs:element minOccurs="0" maxOccurs="1" default="0" name="PageCount" type="xs:int" />
             <xs:element minOccurs="0" maxOccurs="1" default="" name="LanguageISO" type="xs:string" />
