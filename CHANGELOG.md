@@ -3,7 +3,7 @@
 ### Features
 
 - add new field `Translator`
-- add new field 'Tags'
+- add new field `Tags`
 
 ## 2.0
 
