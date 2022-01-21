@@ -4,6 +4,7 @@
 
 - add new field `Translator`
 - add new field `Tags`
+- add new field `Day`
 
 ## 2.0
 
