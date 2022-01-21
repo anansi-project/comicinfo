@@ -21,3 +21,4 @@ Current drafts are available in [drafts](./drafts), each version in a separate d
 Supporters of this initiative include:
 - [Komga](https://komga.org)
 - [Kavita](https://www.kavitareader.com/)
+- [Codex](https://github.com/ajslater/codex)
