@@ -3,6 +3,10 @@ name: Dispatch events
 on:
   push:
     branches: [ main ]
+    paths:
+      - '**.md'
+      - '**.xsd'
+      - '!README.md'
 
 jobs:
   dispatch:
