@@ -43,6 +43,7 @@
             <xs:element minOccurs="0" maxOccurs="1" default="" name="SeriesGroup" type="xs:string" />
             <xs:element minOccurs="0" maxOccurs="1" default="Unknown" name="AgeRating" type="AgeRating" />
             <xs:element minOccurs="0" maxOccurs="1" name="Pages" type="ArrayOfComicPageInfo" />
+            <xs:element minOccurs="0" maxOccurs="1" name="CommunityRating" type="Rating" />
         </xs:sequence>
     </xs:complexType>
     <xs:simpleType name="YesNo">
@@ -60,6 +61,13 @@
             <xs:enumeration value="YesAndRightToLeft" />
         </xs:restriction>
     </xs:simpleType>
+    <xsd:simpleType name="Rating">
+        <xsd:restriction base="xsd:decimal">
+            <xsd:minInclusive value="0"/>
+            <xsd:maxInclusive value="5"/>
+            <xsd:fractionDigits value="2"/>
+        </xsd:restriction>
+    </xsd:simpleType>
     <xs:simpleType name="AgeRating">
         <xs:restriction base="xs:string">
             <xs:enumeration value="Unknown" />
@@ -90,6 +98,7 @@
         <xs:attribute default="false" name="DoublePage" type="xs:boolean" />
         <xs:attribute default="0" name="ImageSize" type="xs:long" />
         <xs:attribute default="" name="Key" type="xs:string" />
+        <xs:attribute default="" name="Bookmark" type="xs:string" />
         <xs:attribute default="-1" name="ImageWidth" type="xs:int" />
         <xs:attribute default="-1" name="ImageHeight" type="xs:int" />
     </xs:complexType>
