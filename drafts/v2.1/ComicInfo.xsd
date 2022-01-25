@@ -65,7 +65,7 @@
         <xsd:restriction base="xsd:decimal">
             <xsd:minInclusive value="0"/>
             <xsd:maxInclusive value="5"/>
-            <xsd:fractionDigits value="2"/>
+            <xsd:fractionDigits value="1"/>
         </xsd:restriction>
     </xsd:simpleType>
     <xs:simpleType name="AgeRating">
