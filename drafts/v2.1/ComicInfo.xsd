@@ -62,7 +62,7 @@
         </xs:restriction>
     </xs:simpleType>
     <xs:simpleType name="Rating">
-        <xs:restriction base="xsd:decimal">
+        <xs:restriction base="xs:decimal">
             <xs:minInclusive value="0"/>
             <xs:maxInclusive value="5"/>
             <xs:fractionDigits value="1"/>
