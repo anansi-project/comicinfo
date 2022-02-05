@@ -58,13 +58,13 @@
             <xs:enumeration value="YesAndRightToLeft" />
         </xs:restriction>
     </xs:simpleType>
-    <xsd:simpleType name="Rating">
-        <xsd:restriction base="xsd:decimal">
-            <xsd:minInclusive value="0"/>
-            <xsd:maxInclusive value="5"/>
-            <xsd:fractionDigits value="2"/>
-        </xsd:restriction>
-    </xsd:simpleType>
+    <xs:simpleType name="Rating">
+        <xs:restriction base="xsd:decimal">
+            <xs:minInclusive value="0"/>
+            <xs:maxInclusive value="5"/>
+            <xs:fractionDigits value="2"/>
+        </xs:restriction>
+    </xs:simpleType>
     <xs:simpleType name="AgeRating">
         <xs:restriction base="xs:string">
             <xs:enumeration value="Unknown" />
