@@ -15,7 +15,5 @@ jobs:
       - uses: actions/checkout@v2
       - name: Install xmllint
         run: sudo apt-get install -y libxml2-utils
-      - name: Download XSD Schema
-        run: curl -s http://www.w3.org/2009/XMLSchema/XMLSchema.xsd -o XSD-1.1.xsd
-      - run: find . -type f -name "*.xsd" -exec xmllint -noout -schema XSD-1.1.xsd {} +
-      - run: xmllint -noout -schema XSD-1.1.xsd ./drafts/v2.1/ComicInfo.xsd
+      - name: Validate XSD Schemas
+        run: find . -type f -name "*.xsd" -exec xmllint -noout -schema http://www.w3.org/2009/XMLSchema/XMLSchema.xsd {} +
