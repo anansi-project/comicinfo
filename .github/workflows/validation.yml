@@ -13,3 +13,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: find . -type f -name "*.xsd" -exec xmllint -noout -schema http://www.w3.org/2009/XMLSchema/XMLSchema.xsd {} +
+      - run: xmllint -schema http://www.w3.org/2009/XMLSchema/XMLSchema.xsd ./drafts/v2.1/ComicInfo.xsd
