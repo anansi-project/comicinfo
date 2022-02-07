@@ -2,8 +2,8 @@ name: XSD Validation
 
 on:
   push:
-    paths:
-      - '**.xsd'
+#    paths:
+#      - '**.xsd'
   pull_request:
     paths:
       - '**.xsd'
