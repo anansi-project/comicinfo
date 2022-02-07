@@ -14,5 +14,5 @@ jobs:
     steps:
       - name: Install xmllint
         run: sudo apt-get install -y libxml2-utils
-      - run: find . -type f -name "*.xsd" -exec xmllint -noout -schema http://www.w3.org/2009/XMLSchema/XMLSchema.xsd {} +
-      - run: xmllint -schema http://www.w3.org/2009/XMLSchema/XMLSchema.xsd ./drafts/v2.1/ComicInfo.xsd
+      - run: find . -type f -name "*.xsd" -exec xmllint -noout -schema https://www.w3.org/2009/XMLSchema/XMLSchema.xsd {} +
+      - run: xmllint -schema https://www.w3.org/2009/XMLSchema/XMLSchema.xsd ./drafts/v2.1/ComicInfo.xsd
