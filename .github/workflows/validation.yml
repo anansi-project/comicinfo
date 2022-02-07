@@ -16,5 +16,6 @@ jobs:
         run: sudo apt-get install -y libxml2-utils
       - name: Download XSD Schema
         run: curl -s http://www.w3.org/2009/XMLSchema/XMLSchema.xsd -o XSD-1.1.xsd
-      - run: find . -type f -name "*.xsd" -exec xmllint -noout -schema XSD-1.1.xsd {} +
-      - run: xmllint -schema XSD-1.1.xsd ./drafts/v2.1/ComicInfo.xsd
+      - run: find . -type f -name "*.xsd" -exec xmllint -schema XSD-1.1.xsd {} +
+      - run: pwd
+      - run: xmllint -schema XSD-1.1.xsd "./drafts/v2.1/ComicInfo.xsd"
