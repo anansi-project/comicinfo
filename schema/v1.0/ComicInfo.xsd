@@ -63,7 +63,7 @@
                     <xs:enumeration value="InnerCover" />
                     <xs:enumeration value="Roundup" />
                     <xs:enumeration value="Story" />
-                    <xs:enumeration value="Advertisment" />
+                    <xs:enumeration value="Advertisement" />
                     <xs:enumeration value="Editorial" />
                     <xs:enumeration value="Letters" />
                     <xs:enumeration value="Preview" />
