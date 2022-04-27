@@ -5,6 +5,7 @@
 - add new field `Translator`
 - add new field `Tags`
 - add new field `Day`
+- add new field `SeriesSort`
 
 ## 2.0
 

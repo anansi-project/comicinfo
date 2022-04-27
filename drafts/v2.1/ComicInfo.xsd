@@ -5,6 +5,7 @@
         <xs:sequence>
             <xs:element minOccurs="0" maxOccurs="1" default="" name="Title" type="xs:string" />
             <xs:element minOccurs="0" maxOccurs="1" default="" name="Series" type="xs:string" />
+            <xs:element minOccurs="0" maxOccurs="1" default="" name="SeriesSort" type="xs:string" />
             <xs:element minOccurs="0" maxOccurs="1" default="" name="Number" type="xs:string" />
             <xs:element minOccurs="0" maxOccurs="1" default="-1" name="Count" type="xs:int" />
             <xs:element minOccurs="0" maxOccurs="1" default="-1" name="Volume" type="xs:int" />
