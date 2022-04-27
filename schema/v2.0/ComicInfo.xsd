@@ -75,7 +75,7 @@
             <xs:enumeration value="G" />
             <xs:enumeration value="Kids to Adults" />
             <xs:enumeration value="M" />
-            <xs:enumeration value="MA 15+" />
+            <xs:enumeration value="MA15+" />
             <xs:enumeration value="Mature 17+" />
             <xs:enumeration value="PG" />
             <xs:enumeration value="R18+" />
