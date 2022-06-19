@@ -6,6 +6,8 @@
 - add new field `Tags`
 - add new field `Day`
 - add new field `StoryArcNumber`
+- add new field `MainCharacterOrTeam`
+- add new field `Review`
 
 ## 2.0
 
