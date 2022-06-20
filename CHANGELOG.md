@@ -5,6 +5,7 @@
 - add new field `Translator`
 - add new field `Tags`
 - add new field `Day`
+- add new field `StoryArcNumber`
 
 ## 2.0
 
