@@ -44,8 +44,8 @@
             <xs:element minOccurs="0" maxOccurs="1" default="Unknown" name="AgeRating" type="AgeRating" />
             <xs:element minOccurs="0" maxOccurs="1" name="Pages" type="ArrayOfComicPageInfo" />
             <xs:element minOccurs="0" maxOccurs="1" name="CommunityRating" type="Rating" />
-			<xs:element minOccurs="0" maxOccurs="1" default="" name="MainCharacterOrTeam" type="xs:string" />
-			<xs:element minOccurs="0" maxOccurs="1" default="" name="Review" type="xs:string" />
+            <xs:element minOccurs="0" maxOccurs="1" default="" name="MainCharacterOrTeam" type="xs:string" />
+	    <xs:element minOccurs="0" maxOccurs="1" default="" name="Review" type="xs:string" />
         </xs:sequence>
     </xs:complexType>
     <xs:simpleType name="YesNo">
