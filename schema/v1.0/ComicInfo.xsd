@@ -2,7 +2,7 @@
 <xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="ComicInfo" nillable="true" type="ComicInfo" />
     <xs:complexType name="ComicInfo">
-        <xs:sequence>
+        <xs:all>
             <xs:element minOccurs="0" maxOccurs="1" default="" name="Title" type="xs:string" />
             <xs:element minOccurs="0" maxOccurs="1" default="" name="Series" type="xs:string" />
             <xs:element minOccurs="0" maxOccurs="1" default="" name="Number" type="xs:string" />
@@ -32,7 +32,7 @@
             <xs:element minOccurs="0" maxOccurs="1" default="Unknown" name="BlackAndWhite" type="YesNo" />
             <xs:element minOccurs="0" maxOccurs="1" default="Unknown" name="Manga" type="YesNo" />
             <xs:element minOccurs="0" maxOccurs="1" name="Pages" type="ArrayOfComicPageInfo" />
-        </xs:sequence>
+        </xs:all>
     </xs:complexType>
     <xs:simpleType name="YesNo">
         <xs:restriction base="xs:string">
