@@ -182,6 +182,10 @@ Community rating of the book, from `0.0` to `5.0`.
 
 Review of the book.
 
+### GTIN
+
+A [Global Trade Item Number](https://en.wikipedia.org/wiki/Global_Trade_Item_Number) identifying the book. GTIN incorporates other standards like ISBN, ISSN, EAN, or JAN.
+
 ### Pages / ComicPageInfo
 
 Describes each page of the book.
