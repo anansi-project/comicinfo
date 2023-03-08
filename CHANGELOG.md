@@ -5,6 +5,7 @@
 - add new field `Translator`
 - add new field `Tags`
 - add new field `StoryArcNumber`
+- add new field `GTIN`
 
 ## 2.0
 
