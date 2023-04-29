@@ -112,6 +112,13 @@ A language code describing the language of the book.
 
 Without any information on what kind of code this element is supposed to contain, it is recommended to use the [IETF BCP 47 language tag](https://en.wikipedia.org/wiki/IETF_language_tag), which can describe the language but also the script used. This helps to differentiate languages with multiple scripts, like Traditional and Simplified Chinese.
 
+### Format
+
+The original publication's binding format for scanned physical books or presentation format for digital sources.
+
+"TBP", "HC", "Web", "Digital" are common designators.
+
+
 ### BlackAndWhite
 
 Whether the book is in black and white.
