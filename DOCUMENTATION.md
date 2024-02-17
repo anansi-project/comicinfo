@@ -102,6 +102,9 @@ It is accepted that multiple values are comma separated.
 
 A URL pointing to a reference website for the book.
 
+It is accepted that multiple values are space separated.
+If a space is a part of the url it must be [percent encoded](https://datatracker.ietf.org/doc/html/rfc2396#section-2.4.1).
+
 ### PageCount
 
 The number of pages in the book.
