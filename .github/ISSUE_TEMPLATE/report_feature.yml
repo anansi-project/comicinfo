@@ -1,0 +1,35 @@
+name: ⭐ Element request
+description: Suggest a new element for ComicInfo
+title: "New element: "
+labels:
+  - triage
+body:
+
+  - type: textarea
+    id: from
+    attributes:
+      label: Where does this comes from?
+      description: Has this been discussed somewhere?
+      placeholder: |
+        Example:
+          "Discussed on <popular reader>'s Discord server"
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: What is the rationale for adding support for this element?
+      description: Describe use cases and provide real life examples
+      placeholder: |
+        Example:
+          Adding this new element would enable …
+          Real life example: …
+
+  - type: textarea
+    id: tools
+    attributes:
+      label: Is the element already handled by any application or tool?
+      placeholder: |
+        Example:
+          Application X already handles this element in the following way: …
