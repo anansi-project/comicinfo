@@ -8,7 +8,7 @@ body:
   - type: textarea
     id: from
     attributes:
-      label: Where does this comes from?
+      label: Where does this come from?
       description: Has this been discussed somewhere?
       placeholder: |
         Example:
