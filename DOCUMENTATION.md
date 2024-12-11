@@ -22,7 +22,7 @@ The `Count` could be different on each book in a series. Consuming applications 
 
 ### Volume
 
-Volume containing the book. Volume is a notion that is specific to US Comics, where the same series can have multiple volumes. Volumes can be referenced by numer (1, 2, 3…) or by year (2018, 2020…).
+Volume containing the book. Volume is a notion that is specific to US Comics, where the same series can have multiple volumes. Volumes can be referenced by number (1, 2, 3…) or by year (2018, 2020…).
 
 ### AlternateSeries / AlternateNumber / AlternateCount
 
