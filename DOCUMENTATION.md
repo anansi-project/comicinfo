@@ -115,6 +115,11 @@ A language code describing the language of the book.
 
 Without any information on what kind of code this element is supposed to contain, it is recommended to use the [IETF BCP 47 language tag](https://en.wikipedia.org/wiki/IETF_language_tag), which can describe the language but also the script used. This helps to differentiate languages with multiple scripts, like Traditional and Simplified Chinese.
 
+See also: 
+
+- [Choosing a language tag - W3C](https://www.w3.org/International/questions/qa-choosing-language-tags)
+- [Language subtag lookup app](https://r12a.github.io/app-subtags/)
+
 ### Format
 
 The original publication's binding format for scanned physical books or presentation format for digital sources.
