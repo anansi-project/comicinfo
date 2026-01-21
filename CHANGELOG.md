@@ -4,6 +4,8 @@
 
 - add new field `Translator`
 - add new field `Tags`
+- add new field `Day`
+- add new field `SeriesSort`
 - add new field `StoryArcNumber`
 - add new field `GTIN`
 
