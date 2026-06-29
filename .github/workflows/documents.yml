@@ -1,0 +1,23 @@
+name: XML Document Validation Tests
+
+on:
+  push:
+    paths:
+      - '**.xsd'
+      - '**.xml'
+  pull_request:
+    paths:
+      - '**.xsd'
+      - '**.xml'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: apt-get update
+        run: sudo apt-get update -y
+      - name: Install xmllint
+        run: sudo apt-get install -y libxml2-utils
+      - name: Run tests
+        run: ./tests/run-tests.sh --color=never
